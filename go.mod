@@ -2,7 +2,10 @@ module github.com/lobem/simple_bank
 
 go 1.25.1
 
-require github.com/jackc/pgx/v5 v5.7.6
+require (
+	github.com/jackc/pgx/v5 v5.7.6
+	github.com/lib/pq v1.10.9
+)
 
 require (
 	github.com/jackc/pgpassfile v1.0.0 // indirect
